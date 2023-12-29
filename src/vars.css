@@ -1,0 +1,13 @@
+:root {
+    /* Colors */
+    --color-white: #FFFF;
+    --color-purple: #A66DF2;
+    --color-title: #37474F;
+    --color-text: #595555;
+
+
+    /* Fonts */
+    --font-montserrat: "Montserrat";
+    --font-lora: "Lora";
+
+}

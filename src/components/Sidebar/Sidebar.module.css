@@ -1,0 +1,21 @@
+@import "../../vars.css";
+
+.nav {
+    background-color: var(--color-purple);
+}
+
+.item {
+    padding-top: 47px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5em;
+
+
+}
