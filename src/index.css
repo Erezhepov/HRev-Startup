@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +7,29 @@
 }
 
 body {
-  font-family: 'Montserrat', 'Lora', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-text);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+input{
+  padding: 5px 0 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #595555;
+  font-size: 1.25em;
+  color: var(--color-text);
+  letter-spacing: .6px;
+  font-weight: 500;
+  font-family: var(--font-lora);
 }
