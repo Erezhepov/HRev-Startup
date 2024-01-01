@@ -18,5 +18,50 @@
       font-size: 12px;
       opacity: 0.7;
     }
+    input + p{
+      margin-top: 3px;
+    }
+  }
+  .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.forgetPassword{
+  background: none;
+  border: none;
+  letter-spacing: 0.6px;
+  text-decoration: underline;
+  font-size: 1.25em;
+  color: var(--color-text);
+}
+.otherEntrances{
+  text-align: center;
+  p span{
+    position: relative;
+    font-size: 1.25em;
+    letter-spacing: 0.6px;
+    &::before, &::after{
+      position: absolute;
+      content: '';
+      width: 150px;
+      height: 0.8px;
+      background: #595555;
+      top: 13.5px;
+    }
+    &::before{
+      right: 3.4em;
+    }
+    &::after{
+      left: 3.4em;
+    }
+  }
+  div{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    column-gap: 1.3em;
+    align-items: center;
   }
 }

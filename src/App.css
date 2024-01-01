@@ -1,10 +1,9 @@
 .app-wrapper {
-    display: grid;
-    grid-template-columns: 300px auto; /* Ширина боковой панели и остальной части */
+    display: flex;
     min-height: 100vh; /* Заполнение высоты всего экрана */
 }
 
 .app-wrapper-content {
-
+    width: 100%;
 
 }

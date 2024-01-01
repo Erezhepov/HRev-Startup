@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
-
+@import "vars.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: #EBF0FA;
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-montserrat);
@@ -21,15 +22,35 @@ code {
   max-width: 1250px;
   margin: 0 auto;
 }
+button{
+  border-radius: 1.25em;
+  border: 2px solid #37474F;
+  background: #FFF;
+  padding: 9px 1.25em;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  outline: none;
+}
 input{
+  border: none;
+  outline: none;
   padding: 5px 0 10px;
   width: 100%;
-  outline: none;
-  border: none;
   border-bottom: 2px solid #595555;
   font-size: 1.25em;
   color: var(--color-text);
   letter-spacing: .6px;
   font-weight: 500;
   font-family: var(--font-lora);
+  background: transparent;
+}
+button.primary{
+  border: none;
+  font-family: var(--font-montserrat);
+  font-size: 1.25em;
+  color: #fff;
+  padding: 8px 1.95em;
+  background-color: var(--color-purple);
+  border-radius: 1.25em;
 }

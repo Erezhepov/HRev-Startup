@@ -8,7 +8,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
-                <Sidebar />
+                {/*<Sidebar />*/}
                 <div className="app-wrapper-content">
                     <Routes>
                         <Route path="/sfia" element={<Sfia />} />

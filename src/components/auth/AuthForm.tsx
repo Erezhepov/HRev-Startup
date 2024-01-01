@@ -15,6 +15,23 @@ const AuthForm = () => {
                     <input type="password"/>
                     <p>Введите корректные данные для входа</p>
                 </label>
+                <div className={s.btns}>
+                    <button className={s.forgetPassword}>
+                        Забыли пароль?
+                    </button>
+                    <button className={`primary`}>
+                        Получить код
+                    </button>
+                </div>
+                <div className={s.otherEntrances}>
+                    <p>
+                        <span>или</span>
+                    </p>
+                    <div>
+                        <button>Google</button>
+                        <button>Microsoft</button>
+                    </div>
+                </div>
             </div>
         </div>
     );

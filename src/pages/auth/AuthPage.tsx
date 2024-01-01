@@ -11,9 +11,18 @@ const AuthPage = () => {
                 </svg>
             </div>
             <div className={`${s.container} container`}>
-                <h2 className={s.title}>Добро пожаловать в HRev!</h2>
+                <h2 className={s.title}>Добро пожаловать<br/>в HRev!</h2>
                 <div className={s.body}>
                     <AuthForm />
+                </div>
+            </div>
+            <div className={s.footer}>
+                <div className="container">
+                    <div className={s.links}>
+                        <a href="#">
+                            <img src='icons/insta.svg' alt=""/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
