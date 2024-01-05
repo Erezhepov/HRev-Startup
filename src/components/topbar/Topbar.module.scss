@@ -1,0 +1,41 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 40px;
+
+}
+
+.sidebarClosed {
+  left: 0;
+  width: 100%;
+}
+
+.toggle {
+  display: inline-flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  line-height: normal;;
+
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+}
+
+
+

@@ -1,0 +1,57 @@
+/* Sfia.module.css */
+
+.sfia {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column; /* Основная ось направлена вертикально */
+    transition: 0.5s;
+}
+
+.sfiaContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 86px 86px 0 65px;
+
+    p {
+        max-width: 475px;
+        max-height: 340px;
+        text-align: left;
+        margin-bottom: 47px;
+    }
+
+}
+
+.textContent {
+
+    h2 {
+        color: var(--color-subtext);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 50px;
+    }
+
+    button {
+        border-radius: 20px;
+        max-width: 277px;
+        max-height: 40px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+}
+
+.imageContent {
+    max-width: 464px;
+    max-height: 462px;
+}
+
+

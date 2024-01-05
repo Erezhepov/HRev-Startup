@@ -11,7 +11,8 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-montserrat);
-  color: var(--color-text);
+  color: var(--color-h1);
+
 }
 
 code {
@@ -39,7 +40,7 @@ input{
   width: 100%;
   border-bottom: 2px solid #595555;
   font-size: 1.25em;
-  color: var(--color-text);
+  color: var(--color-subtext);
   letter-spacing: .6px;
   font-weight: 500;
   font-family: var(--font-lora);
