@@ -1,16 +1,19 @@
 import {createAsyncThunk} from "@reduxjs/toolkit";
 import {$api} from "../../api/api";
-import {IRegistrationData, IRegistrationResponse} from "../../models/registration.models";
+import {IAuthData} from "../../models/auth.models";
 
 
-export const registrationThunk = createAsyncThunk<IRegistrationResponse, IRegistrationData, {rejectValue: string | null | any}>
+export const authThunk = createAsyncThunk<any, IAuthData, {rejectValue: string | null}>
 ('register', async (dataItem, {rejectWithValue}) => {
     try {
-        const response = await $api.post('users/person_registration/', dataItem)
+        debugger
+        const response = await $api.post('users/token/', dataItem)
         const data = response.data
+        console.log(data)
         return data
 
     }catch (e: any){
-        return rejectWithValue(e?.response?.data?.Error || 'Ошибка при регистрации')
+        console.log(e)
+        return rejectWithValue(e?.response?.data?.Error || 'Ошибка при авторизации')
     }
 })

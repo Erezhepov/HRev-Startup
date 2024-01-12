@@ -1,0 +1,30 @@
+.body{
+  .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  label{
+    width: 46%;
+    &:last-child{
+      width: 100%;
+    }
+  }
+}
+.signIn{
+  background: none;
+  border: none;
+  letter-spacing: 0.6px;
+  text-decoration: underline;
+  font-size: 1.25em;
+  color: #37474F;
+  padding: 0 10px;
+  margin-right: 2em;
+}
+.btns{
+  p{
+    font-size: 1.25em;
+    letter-spacing: 0.6px;
+  }
+}
