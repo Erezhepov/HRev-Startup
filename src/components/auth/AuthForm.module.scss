@@ -13,6 +13,7 @@
   }
   label{
     font-family: var(--font-lora);
+    position: relative;
     p{
       font-weight: 500;
       font-size: 12px;
@@ -20,6 +21,13 @@
     }
     input + p{
       margin-top: 3px;
+    }
+    span{
+      color: red;
+      font-size: 11px;
+      position: absolute;
+      bottom: -20px;
+      left: 0;
     }
   }
   .btns{
@@ -38,6 +46,7 @@
 }
 .otherEntrances{
   text-align: center;
+  margin: 0 auto;
   p span{
     position: relative;
     font-size: 1.25em;
